@@ -1,0 +1,32 @@
+shark=["shark1", "shark2", "shark3", "shark4", "shark5"]
+print(shark)
+print(type(shark))
+print(shark[3])
+#index goes from 0,1,2,3,4+  negitive starts from -1,-2,-3,-4,-5+
+print(shark[-1])
+print(shark[0:3])
+print(shark[-3:-1])
+print(shark[:4])
+print(shark[2:-2])
+print(shark[-3:])
+print(shark[:-3])
+print(shark[0:5:2])
+print(shark[0::3])
+print(len(shark))
+shark.insert(5,"shark6")
+print(shark)
+shark.remove("shark6")
+print(shark)
+shark.pop()
+print(shark)
+fruits = ["apple", "banana", "cherry", "oranges", "mango"]
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.sort(reverse=True)
+print(fruits)
+print(fruits.index("mango"))
+print(shark.index("shark3"))
+list=fruits+shark
+print(list)
+
